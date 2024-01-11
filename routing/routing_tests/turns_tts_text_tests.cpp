@@ -19,20 +19,22 @@ bool PairDistEquals(PairDist const & lhs, PairDist const & rhs)
 
 UNIT_TEST(GetDistanceTextIdMetersTest)
 {
-  // Notification(uint32_t distanceUnits, uint8_t exitNum, bool useThenInsteadOfDistance,
-  //    CarDirection turnDir, ::Settings::Units lengthUnits)
-  Notification const notification1(500, 0, false, CarDirection::TurnRight,
-                                   measurement_utils::Units::Metric);
-  TEST_EQUAL(GetDistanceTextId(notification1), "in_500_meters", ());
+  TEST_EQUAL(GetDistanceTextId({500, 0, false, CarDirection::TurnRight, measurement_utils::Units::Metric}),
+             "in_500_meters", ());
+
 //  Notification const notification2(500, 0, true, CarDirection::TurnRight,
 //                                   measurement_utils::Units::Metric);
 //  TEST_EQUAL(GetDistanceTextId(notification2), "then", ());
-  Notification const notification3(200, 0, false, CarDirection::TurnRight,
-                                   measurement_utils::Units::Metric);
-  TEST_EQUAL(GetDistanceTextId(notification3), "in_200_meters", ());
-  Notification const notification4(2000, 0, false, CarDirection::TurnRight,
-                                   measurement_utils::Units::Metric);
-  TEST_EQUAL(GetDistanceTextId(notification4), "in_2_kilometers", ());
+
+  TEST_EQUAL(GetDistanceTextId({200, 0, false, CarDirection::TurnRight, measurement_utils::Units::Metric}),
+             "in_200_meters", ());
+  TEST_EQUAL(GetDistanceTextId({2000, 0, false, CarDirection::TurnRight, measurement_utils::Units::Metric}),
+             "in_2_kilometers", ());
+
+  TEST_EQUAL(GetDistanceTextId({130, 0, false, CarDirection::TurnRight, measurement_utils::Units::Metric}),
+             "in_100_meters", ());
+  TEST_EQUAL(GetDistanceTextId({135, 0, false, CarDirection::TurnRight, measurement_utils::Units::Metric}),
+             "in_200_meters", ());
 }
 
 UNIT_TEST(GetDistanceTextIdFeetTest)

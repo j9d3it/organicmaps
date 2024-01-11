@@ -20,18 +20,23 @@ using namespace routing::turns::sound;
 
 template <class TIter> std::string DistToTextId(TIter begin, TIter end, uint32_t dist)
 {
-  using TValue = typename std::iterator_traits<TIter>::value_type;
-
-  TIter distToSound = lower_bound(begin, end, dist, [](TValue const & p1, uint32_t p2)
-                      {
-                        return p1.first < p2;
-                      });
-  if (distToSound == end)
+  TIter it = lower_bound(begin, end, dist, [](auto const & p1, uint32_t p2) { return p1.first < p2; });
+  if (it == end)
   {
     ASSERT(false, ("notification.m_distanceUnits is not correct."));
-    return std::string{};
+    return {};
   }
-  return distToSound->second;
+
+  if (it != begin)
+  {
+    // Rounding like 130 -> 100; 135 -> 200 is better than upper bound, IMO.
+    auto iPrev = it;
+    --iPrev;
+    if ((dist - iPrev->first) * 2 < (it->first - dist))
+      return iPrev->second;
+  }
+
+  return it->second;
 }
 }  //  namespace
 
