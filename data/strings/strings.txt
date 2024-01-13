@@ -542,7 +542,7 @@
     hu = Később
     id = Nanti
     it = Più tardi
-    ja = 次の機会に
+    ja = 後で
     ko = 나중에
     lt = Vėliau
     mr = नंतर
@@ -630,7 +630,7 @@
     hu = Keresés a térképen
     id = Cari Peta
     it = Cerca sulla mappa
-    ja = マップを検索
+    ja = 検索
     ko = 지도 검색하기
     lt = Ieškoti žemėlapio
     mr = नकाश्यात शोधा
@@ -718,7 +718,7 @@
     hu = Jelenleg az eszköz vagy alkalmazás helymeghatározási szolgáltatásai le vannak tiltva. Kérjük, engedélyezze őket a Beállításokban.
     id = Saat ini semua Layanan Lokasi untuk perangkat atau aplikasi ini non-aktif. Mohon aktifkan lewat Setelan.
     it = Attualmente tutti i servizi di localizzazione per questo dispositivo o applicazione sono disattivati. Si prega di abilitarli in Impostazioni.
-    ja = 端末の位置情報サービスが無効になっているか、このアプリケーションからの位置情報利用が制限されています。端末の設定を有効化してください。
+    ja = 端末の位置情報サービスが無効になっているか、このアプリからの位置情報利用が制限されています。端末の設定を有効化してください。
     ko = 현재 이 기기 또는 애플리케이션에 대한 모든 위치 서비스가 비활성화되어 있습니다. 설정에서 활성화하십시오.
     lt = Šiuo metu jūsų įrenginio ar programėlės visos vietovės tarnybos yra išjungtos. Įjunkite jas nustatymuose.
     mr = आपल्या उपकरणात किंवा ऍप मध्ये स्थानसेवा सध्या बंद आहेत. कृपया सेटिंग मधून त्यांना चालू  करा.
@@ -1194,7 +1194,7 @@
     hu = Helymeghatározási beállítások
     id = Pengaturan lokasi
     it = Impostazioni della posizione
-    ja = ロケーション設定
+    ja = 位置情報の設定
     ko = 위치 설정
     mr = स्थान सेटिंग्ज
     nb = Innstillinger for plassering
@@ -2409,6 +2409,7 @@
     fr = Stockage interne privé
     he = אחסון פנימי פרטי
     hu = Belső privát tárhely
+    ja = アプリ固有のストレージ
     lt = Vidinė privati saugykla
     nb = Intern privat lagring
     nl = Intern persoonlijk geheugen
@@ -2461,6 +2462,7 @@
     fr = Carte SD
     he = כרטיס זיכרון
     hu = SD-kártya
+    ja = SDカード
     lt = SD kortelė
     nb = SD-kort
     nl = SD-kaart
@@ -2659,7 +2661,7 @@
     hu = Mértékegységek
     id = Unit Pengukuran
     it = Unità di misura
-    ja = 距離計測単位
+    ja = 距離の単位
     ko = 측정 단위
     lt = Matavimo vienetai
     mr = मापन एकके
@@ -4190,7 +4192,7 @@
     hu = Nézd meg a Organic Maps helyzetemet! %1$@ vagy %2$@ A program letöltése: https://omaps.app/get
     id = Hei, lihat lokasiku saat ini di Organic Maps! %1$@ atau %2$@ belum memiliki peta offline? Unduh di sini: https://omaps.app/get
     it = Guarda la mia posizione in Organic Maps! %1$@ o %2$@ Non hai scaricato l'app? La puoi scaricare da qui: https://omaps.app/get
-    ja = 私は今ここにいます。リンク: %1$@, %2$@
+    ja = 現在地はここです。URL: %1$@ または %2$@
     ko = 현재 위치를 알아 보십시오. %1$@ 또는 %2$@ 열기
     lt = Labas, pažvelk į mano dabartinę vietą Organic Maps! %1$@ arba %2$@ Neturi atjungtinių žemėlapių? Atsisiųsk čia: https://omaps.app/get
     mr = मी आता इथे आहे %1$@ किंवा %2$@ Organic Maps डाउनलोड करा: https://omaps.app/get
@@ -4319,7 +4321,7 @@
     hu = Üdvözlöm!\n\nJelenleg itt vagyok: %1$@ Kattintson erre a hivatkozásra %2$@ vagy erre %3$@, hogy lássa a helyet a térképen.\n\nKöszönöm.
     id = Hai,\n\nSekarang saya ada di sini: %1$@. Klik tautan ini %2$@ atau yang ini %3$@ untuk melihat tempatnya di peta.\n\nTerima kasih.
     it = Ciao,\n\nSono qui adesso: %1$@. Clicca su questo link %2$@ oppure su questo %3$@ per vedere il posto sulla mappa.\n\nGrazie.
-    ja = 私は今ここにいます: %1$@\n\nリンクをクリックすると詳細がマップに表示されます。\n\n%2$@\n\n%3$@
+    ja = 今ここにいます: %1$@\n\nリンクをクリックすると詳細がマップに表示されます。\n\n%2$@\n\n%3$@
     ko = 안녕하세요.\n\n지금 다음 위치에 있습니다: %1$@. %2$@ 또는 %3$@ 링크를 클릭하여 지도상에서 해당 장소를 살펴보시기 바랍니다.\n\n감사합니다.
     lt = Labas,\nŠiuo metu esu čia: %1$@. Spustelėk ant %2$@ arba %3$@, kad pamatytum mano vietą žemėlapyje.\n\nAčiū.
     mr = नमस्कार,\n\nमी आता इथे आहे: %1$@. नकाशावर ठिकाण पाहण्यासाठी या %2$@ किंवा या %3$@ वर क्लिक करा.\n\nआभारी.
@@ -4804,7 +4806,7 @@
     hu = Helyzetem megosztása
     id = Bagikan Lokasi Saya
     it = Condividi la mia posizione
-    ja = 位置情報を共有する
+    ja = 現在地を共有
     ko = 내 위치 공유
     lt = Bendrinti mano vietą
     mr = माझे स्थान सामायिक करा
@@ -4844,6 +4846,7 @@
     fr = Paramètres généraux
     he = הגדרות כלליות
     it = Opzioni generali
+    ja = 一般の設定
     lt = Bendrieji nustatymai
     mr = सर्वसामान्य सेटिंग
     nb = Generelle instillinger
@@ -4879,6 +4882,7 @@
     he = מידע
     hu = Információk
     it = Informazioni
+    ja = 情報
     lt = Informacija
     mr = माहिती
     nb = Informasjon
@@ -11317,7 +11321,7 @@
     hu = Zárvatartási idők felvitele
     id = Tambah Jam Tutup
     it = Aggiungi orari di chiusura
-    ja = 閉店時間追加
+    ja = 閉店時間を追加
     ko = 폐점 시간 추가
     lt = Add Non-Business Hours
     mr = गैर-व्यवसायाची वेळ जोडा
@@ -11962,7 +11966,7 @@
     hu = Karbantartás miatt nem elérhető
     id = Ditutup karena pemeliharaan
     it = Chiuso per manutenzione
-    ja = メンテナンスのため使えません
+    ja = メンテナンスのため閉鎖
     ko = 유지 보수를 위해 닫음
     lt = Uždaryta tvarkymui
     mr = देखभालीसाठी बंद
@@ -14753,7 +14757,7 @@
     hu = Szervezet hozzáadása
     id = Tambahkan organisasi
     it = Aggiungi attività
-    ja = 団体を追加
+    ja = ビジネスを追加
     ko = 조직 추가
     lt = Pridėti verslą
     mr = व्यवसाय जोडा
@@ -16350,7 +16354,7 @@
     hu = km/h
     id = km/j
     it = km/h
-    ja = キロメートル毎時
+    ja = km/h
     ko = km/시
     lt = km/h
     mr = km/h
@@ -16475,7 +16479,7 @@
     hu = mph
     id = mpj
     it = mph
-    ja = マイル毎時
+    ja = mph
     ko = mph
     lt = mph
     mr = mph
@@ -18704,7 +18708,7 @@
     hu = Betűméret növelése a térképen
     id = Perbesar ukuran huruf pada peta
     it = Aumenta caratteri sulla mappa
-    ja = 地図上のフォントサイズを大きく
+    ja = 地図上のフォントサイズを大きくする
     ko = 지도에서 글꼴 크기 늘리기
     lt = Padidinti šrifto dydi žemėlapyje
     mr = नकाशावर टंकाचा (फॉन्टचा) आकार वाढवा
@@ -19099,7 +19103,7 @@
     hu = Átírás latin nyelvre
     id = Transliterasi ke dalam bahasa Latin
     it = Trascrizione in latino
-    ja = ラテン文字への字訳
+    ja = ラテン文字への翻字
     ko = 라틴어로 음역
     lt = Transliteracija į lotynų
     mr = लॅटिनमध्ये (इंग्रजीची अक्षरे) लिप्यंतरण
@@ -22995,7 +22999,7 @@
     hu = Kerülje a fizetős utakat
     id = Hindari jalan tol
     it = Evita le strade a pedaggio
-    ja = 有料道路を避ける
+    ja = 有料道路を使わない
     ko = 유료 도로 피하기
     mr = टोल रस्ते टाळा
     nb = Unngå bompenger
@@ -23039,7 +23043,7 @@
     hu = Burkolatlan utak elkerülése
     id = Hindari jalan tanah
     it = Evitare le strade non asfaltate
-    ja = 未舗装道路を回避
+    ja = 未舗装道路を使わない
     ko = 비포장 도로 피하기
     lt = Vengti neasfaltuotų kelių
     mr = कच्चे मार्ग टाळा
@@ -23084,7 +23088,7 @@
     hu = Kompátkelők elkerülése
     id = Hindari feri
     it = Evitare i traghetti
-    ja = フェリー航路を回避
+    ja = フェリーを使用しない
     ko = 여객선 횡단길 피하기
     lt = Vengti kelionių keltu
     mr = जल मार्ग टाळा
@@ -23128,7 +23132,7 @@
     hu = Kerülje az autópályát
     id = Hindari jalan raya
     it = Evita l'autostrada
-    ja = 高速道路を避ける
+    ja = 高速道路を使わない
     ko = 고속도로를 피하세요
     mr = मोटरवे टाळा
     nb = Unngå motorveien
@@ -23262,7 +23266,7 @@
     hu = Elkerülendő utak meghatározása
     id = Tentukan jalan yang dihindari
     it = Definire le strade da evitare
-    ja = 回避するために道を設定
+    ja = 迂回ルートを設定する
     ko = 피할 도로 정의하기
     lt = Apibrėžti vengiamus kelius
     mr = टाळण्याचे मार्ग निवडा
@@ -27155,6 +27159,7 @@
     he = הצג במסך הנעילה
     hu = Megjelenítés a zárolt képernyőn
     it = Mostra sulla schermata di blocco
+    ja = ロック画面に表示
     lt = Rodyti užrakinimo ekrane
     mr = लॉक पटलावर (स्क्रीनवर) दाखवा
     nb = Vis på låseskjerm
@@ -27187,6 +27192,7 @@
     he = כאשר מופעל, האפליקציה תעבוד במסך הנעילה אפילו כשהמכשיר נעול.
     hu = Ha engedélyezve van, nem kell minden alkalommal feloldanod a telefonod, amíg az alkalmazás fut.
     it = Quando è abilitata, non è necessario sbloccare il dispositivo ogni volta mentre l'app è in esecuzione.
+    ja = 有効にすると、デバイスがロックされていてもロック画面から使える。
     lt = Jei įjungta, jums nereikės kiekvieną kartą atrakinti įrenginio, kol veikia programėlė.
     mr = चालू असल्यास, ऍप चालू असताना प्रत्येक वेळी तुम्हाला तुमचे उपकरण अनलॉक करण्याची आवश्यकता नाही.
     nb = Når dette er aktivert trenger du ikke låse opp enheten hver gang når appen kjører.
@@ -27661,7 +27667,7 @@
     hu = Köszönjük, hogy használja a közösség által készített térképeinket!
     id = Terima kasih telah menggunakan peta buatan komunitas kami!
     it = Grazie per aver utilizzato le nostre mappe costruite dalla comunità!
-    ja = 私たちのコミュニティが作った地図をご利用いただき、ありがとうございます！
+    ja = `コミュニティーが作った地図をご利用いただき、ありがとうございます！
     ko = 커뮤니티에서 제작한 지도를 이용해 주셔서 감사합니다!
     mr = आमचे समुदाय-निर्मित नकाशे वापरल्याबद्दल धन्यवाद!
     nb = Takk for at du bruker kartene vi har laget i fellesskap!
@@ -27706,7 +27712,7 @@
     hu = Ön most az Organic Maps használja a telefon képernyőjén
     id = Anda sekarang menggunakan Organic Maps pada layar ponsel
     it = Ora stai utilizzando Organic Maps sullo schermo del telefono
-    ja = あなたは今、携帯電話の画面でオーガニック・マップを使用している
+    ja = スマートフォンの画面でOrganic Mapsを使用している
     ko = 이제 휴대폰 화면에서 유기적 지도를 사용하고 있습니다
     mr = तुम्ही आता फोन स्क्रीनवर ऑरगॅनिक नकाशे वापरत आहात
     nb = Du bruker nå Organic Maps på telefonskjermen
@@ -27751,7 +27757,7 @@
     hu = Ön most az Organic Mapset használja az autó képernyőjén
     id = Anda sekarang menggunakan Organic Maps pada layar mobil
     it = Ora stai utilizzando le Organic Maps sullo schermo dell'auto
-    ja = あなたは今、車の画面でオーガニック・マップを使用している
+    ja = 車の画面でOrganic Mapsを使用している
     ko = 이제 자동차 화면에서 유기적 지도를 사용하고 있습니다
     mr = तुम्ही आता कार स्क्रीनवर ऑरगॅनिक नकाशे वापरत आहात
     nb = Du bruker nå Organic Maps på bilskjermen
@@ -27796,7 +27802,7 @@
     hu = Ön csatlakozik az Android Auto rendszerhez
     id = Anda terhubung ke Android Auto
     it = Sei connesso ad Android Auto
-    ja = アンドロイド・オートに接続している
+    ja = Android Autoに接続している
     ko = Android Auto에 연결되어 있습니다.
     mr = तुम्ही Android Auto शी कनेक्ट आहात
     nb = Du er koblet til Android Auto
@@ -27841,7 +27847,7 @@
     hu = Folytassa a telefonban
     id = Lanjutkan di telepon
     it = Continua nel telefono
-    ja = 電話で続ける
+    ja = スマートフォンで続ける
     ko = 전화기에서 계속
     mr = फोनवर सुरू ठेवा
     nb = Fortsett i telefonen
@@ -27886,7 +27892,7 @@
     hu = Az autó képernyőjére
     id = Ke layar mobil
     it = Allo schermo dell'auto
-    ja = 車のスクリーンへ
+    ja = 車の画面に移動
     ko = 차량 화면으로 이동
     mr = कारच्या स्क्रीनकडे
     nb = Til bilens skjerm
@@ -27931,7 +27937,7 @@
     hu = Ez az alkalmazás navigációs célokra hozzáférést igényel az Ön tartózkodási helyéhez.
     id = Aplikasi ini memerlukan akses ke lokasi Anda untuk tujuan navigasi.
     it = Questa applicazione richiede l'accesso alla tua posizione per la navigazione.
-    ja = このアプリケーションは、ナビゲーションのために位置情報へのアクセスを必要とする。
+    ja = このアプリは、ナビのために位置情報へのアクセスが必要です。
     ko = 이 애플리케이션을 사용하려면 내비게이션 목적으로 사용자 위치에 액세스해야 합니다.
     mr = नेव्हिगेशन हेतूंसाठी या अनुप्रयोगास आपल्या स्थानावर प्रवेश आवश्यक आहे.
     nb = Denne applikasjonen krever tilgang til posisjonen din for navigasjonsformål.
@@ -28021,7 +28027,7 @@
     hu = Autóhoz csatlakoztatva
     id = Terhubung ke mobil
     it = Collegato all'auto
-    ja = 自動車に接続されている
+    ja = 車に接続した
     ko = 차량에 연결
     mr = कारला जोडलेले
     nb = Tilkoblet til bil
